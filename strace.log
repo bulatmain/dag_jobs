@@ -1,0 +1,218 @@
+2322602 execve("./main", ["./main", "example.ini"], 0x7ffea30cba70 /* 58 vars */) = 0
+2322602 brk(NULL)                       = 0x562cc7cb9000
+2322602 arch_prctl(0x3001 /* ARCH_??? */, 0x7ffe50d2ef30) = -1 EINVAL (Недопустимый аргумент)
+2322602 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fb8eb372000
+2322602 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (Нет такого файла или каталога)
+2322602 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+2322602 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=86119, ...}, AT_EMPTY_PATH) = 0
+2322602 mmap(NULL, 86119, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fb8eb35c000
+2322602 close(3)                        = 0
+2322602 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+2322602 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+2322602 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=2260296, ...}, AT_EMPTY_PATH) = 0
+2322602 mmap(NULL, 2275520, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fb8eb000000
+2322602 mprotect(0x7fb8eb09a000, 1576960, PROT_NONE) = 0
+2322602 mmap(0x7fb8eb09a000, 1118208, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9a000) = 0x7fb8eb09a000
+2322602 mmap(0x7fb8eb1ab000, 454656, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1ab000) = 0x7fb8eb1ab000
+2322602 mmap(0x7fb8eb21b000, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x21a000) = 0x7fb8eb21b000
+2322602 mmap(0x7fb8eb229000, 10432, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fb8eb229000
+2322602 close(3)                        = 0
+2322602 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+2322602 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+2322602 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=125488, ...}, AT_EMPTY_PATH) = 0
+2322602 mmap(NULL, 127720, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fb8eb33c000
+2322602 mmap(0x7fb8eb33f000, 94208, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7fb8eb33f000
+2322602 mmap(0x7fb8eb356000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1a000) = 0x7fb8eb356000
+2322602 mmap(0x7fb8eb35a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1d000) = 0x7fb8eb35a000
+2322602 close(3)                        = 0
+2322602 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+2322602 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\237\2\0\0\0\0\0"..., 832) = 832
+2322602 pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+2322602 pread64(3, "\4\0\0\0 \0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0"..., 48, 848) = 48
+2322602 pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\302\211\332Pq\2439\235\350\223\322\257\201\326\243\f"..., 68, 896) = 68
+2322602 newfstatat(3, "", {st_mode=S_IFREG|0755, st_size=2220400, ...}, AT_EMPTY_PATH) = 0
+2322602 pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+2322602 mmap(NULL, 2264656, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fb8eac00000
+2322602 mprotect(0x7fb8eac28000, 2023424, PROT_NONE) = 0
+2322602 mmap(0x7fb8eac28000, 1658880, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x7fb8eac28000
+2322602 mmap(0x7fb8eadbd000, 360448, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bd000) = 0x7fb8eadbd000
+2322602 mmap(0x7fb8eae16000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x215000) = 0x7fb8eae16000
+2322602 mmap(0x7fb8eae1c000, 52816, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fb8eae1c000
+2322602 close(3)                        = 0
+2322602 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+2322602 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+2322602 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=940560, ...}, AT_EMPTY_PATH) = 0
+2322602 mmap(NULL, 942344, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fb8eb255000
+2322602 mmap(0x7fb8eb263000, 507904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe000) = 0x7fb8eb263000
+2322602 mmap(0x7fb8eb2df000, 372736, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8a000) = 0x7fb8eb2df000
+2322602 mmap(0x7fb8eb33a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe4000) = 0x7fb8eb33a000
+2322602 close(3)                        = 0
+2322602 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fb8eb253000
+2322602 arch_prctl(ARCH_SET_FS, 0x7fb8eb2543c0) = 0
+2322602 set_tid_address(0x7fb8eb254690) = 2322602
+2322602 set_robust_list(0x7fb8eb2546a0, 24) = 0
+2322602 rseq(0x7fb8eb254d60, 0x20, 0, 0x53053053) = 0
+2322602 mprotect(0x7fb8eae16000, 16384, PROT_READ) = 0
+2322602 mprotect(0x7fb8eb33a000, 4096, PROT_READ) = 0
+2322602 mprotect(0x7fb8eb35a000, 4096, PROT_READ) = 0
+2322602 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fb8eb251000
+2322602 mprotect(0x7fb8eb21b000, 45056, PROT_READ) = 0
+2322602 mprotect(0x562cc68b9000, 4096, PROT_READ) = 0
+2322602 mprotect(0x7fb8eb3ac000, 8192, PROT_READ) = 0
+2322602 prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+2322602 munmap(0x7fb8eb35c000, 86119)   = 0
+2322602 getrandom("\xb6\x22\x71\xea\x70\x4c\x99\xd8", 8, GRND_NONBLOCK) = 8
+2322602 brk(NULL)                       = 0x562cc7cb9000
+2322602 brk(0x562cc7cda000)             = 0x562cc7cda000
+2322602 futex(0x7fb8eb22977c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+2322602 openat(AT_FDCWD, "example.ini", O_RDONLY) = 3
+2322602 newfstatat(3, "", {st_mode=S_IFREG|0664, st_size=158, ...}, AT_EMPTY_PATH) = 0
+2322602 read(3, "[job_1]\nid = 1\njobsReq = 4 5\n\n[j"..., 4096) = 158
+2322602 read(3, "", 4096)               = 0
+2322602 close(3)                        = 0
+2322602 futex(0x7fb8eb35b210, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+2322602 newfstatat(1, "", {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0x1), ...}, AT_EMPTY_PATH) = 0
+2322602 write(1, "Job 6 launched\n", 15) = 15
+2322602 pipe2([3, 4], 0)                = 0
+2322602 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fb8eb254690) = 2322603
+2322602 close(4 <unfinished ...>
+2322603 set_robust_list(0x7fb8eb2546a0, 24 <unfinished ...>
+2322602 <... close resumed>)            = 0
+2322603 <... set_robust_list resumed>)  = 0
+2322602 read(3,  <unfinished ...>
+2322603 close(3)                        = 0
+2322603 getpid()                        = 2322603
+2322603 write(4, "\1\1", 2 <unfinished ...>
+2322602 <... read resumed>"\1\1", 2)    = 2
+2322603 <... write resumed>)            = 2
+2322602 close(3 <unfinished ...>
+2322603 close(4 <unfinished ...>
+2322602 <... close resumed>)            = 0
+2322603 <... close resumed>)            = 0
+2322602 write(1, "> Job 6 generated 11\n", 21) = 21
+2322602 write(1, "Job 4 launched\n", 15) = 15
+2322602 pipe2([3, 4], 0)                = 0
+2322602 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+2322603 exit_group(0)                   = ?
+2322602 <... clone resumed>, child_tidptr=0x7fb8eb254690) = 2322604
+2322603 +++ exited with 0 +++
+2322602 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=2322603, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+2322604 set_robust_list(0x7fb8eb2546a0, 24 <unfinished ...>
+2322602 close(4 <unfinished ...>
+2322604 <... set_robust_list resumed>)  = 0
+2322602 <... close resumed>)            = 0
+2322602 read(3,  <unfinished ...>
+2322604 close(3)                        = 0
+2322604 getpid()                        = 2322604
+2322604 write(4, "\3\5", 2 <unfinished ...>
+2322602 <... read resumed>"\3\5", 2)    = 2
+2322604 <... write resumed>)            = 2
+2322602 close(3 <unfinished ...>
+2322604 close(4 <unfinished ...>
+2322602 <... close resumed>)            = 0
+2322604 <... close resumed>)            = 0
+2322602 write(1, "> Job 4 generated 53\n", 21) = 21
+2322602 write(1, "Job 5 launched\n", 15) = 15
+2322602 pipe2([3, 4], 0)                = 0
+2322604 exit_group(0 <unfinished ...>
+2322602 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+2322604 <... exit_group resumed>)       = ?
+2322602 <... clone resumed>, child_tidptr=0x7fb8eb254690) = 2322605
+2322604 +++ exited with 0 +++
+2322602 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=2322604, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+2322605 set_robust_list(0x7fb8eb2546a0, 24 <unfinished ...>
+2322602 close(4 <unfinished ...>
+2322605 <... set_robust_list resumed>)  = 0
+2322602 <... close resumed>)            = 0
+2322602 read(3,  <unfinished ...>
+2322605 close(3)                        = 0
+2322605 getpid()                        = 2322605
+2322605 write(4, "\3\5", 2)             = 2
+2322602 <... read resumed>"\3\5", 2)    = 2
+2322605 close(4 <unfinished ...>
+2322602 close(3 <unfinished ...>
+2322605 <... close resumed>)            = 0
+2322602 <... close resumed>)            = 0
+2322602 write(1, "> Job 5 generated 53\n", 21) = 21
+2322602 write(1, "Job 1 launched\n", 15) = 15
+2322602 pipe2([3, 4], 0)                = 0
+2322605 exit_group(0 <unfinished ...>
+2322602 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+2322605 <... exit_group resumed>)       = ?
+2322602 <... clone resumed>, child_tidptr=0x7fb8eb254690) = 2322606
+2322605 +++ exited with 0 +++
+2322602 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=2322605, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+2322606 set_robust_list(0x7fb8eb2546a0, 24 <unfinished ...>
+2322602 close(4 <unfinished ...>
+2322606 <... set_robust_list resumed>)  = 0
+2322602 <... close resumed>)            = 0
+2322602 read(3,  <unfinished ...>
+2322606 close(3)                        = 0
+2322606 getpid()                        = 2322606
+2322606 write(4, "\10\10", 2 <unfinished ...>
+2322602 <... read resumed>"\10\10", 2)  = 2
+2322606 <... write resumed>)            = 2
+2322602 close(3 <unfinished ...>
+2322606 close(4 <unfinished ...>
+2322602 <... close resumed>)            = 0
+2322606 <... close resumed>)            = 0
+2322602 write(1, "> Job 1 generated 88\n", 21) = 21
+2322602 write(1, "Job 2 launched\n", 15) = 15
+2322602 pipe2([3, 4], 0)                = 0
+2322602 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+2322606 exit_group(0)                   = ?
+2322602 <... clone resumed>, child_tidptr=0x7fb8eb254690) = 2322607
+2322602 close(4 <unfinished ...>
+2322606 +++ exited with 0 +++
+2322602 <... close resumed>)            = 0
+2322607 set_robust_list(0x7fb8eb2546a0, 24 <unfinished ...>
+2322602 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=2322606, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+2322607 <... set_robust_list resumed>)  = 0
+2322602 read(3,  <unfinished ...>
+2322607 close(3)                        = 0
+2322607 getpid()                        = 2322607
+2322607 write(4, "\0\t", 2)             = 2
+2322602 <... read resumed>"\0\t", 2)    = 2
+2322607 close(4 <unfinished ...>
+2322602 close(3 <unfinished ...>
+2322607 <... close resumed>)            = 0
+2322602 <... close resumed>)            = 0
+2322602 write(1, "> Job 2 generated 90\n", 21) = 21
+2322602 write(1, "Job 3 launched\n", 15) = 15
+2322602 pipe2([3, 4], 0)                = 0
+2322607 exit_group(0 <unfinished ...>
+2322602 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+2322607 <... exit_group resumed>)       = ?
+2322602 <... clone resumed>, child_tidptr=0x7fb8eb254690) = 2322608
+2322608 set_robust_list(0x7fb8eb2546a0, 24 <unfinished ...>
+2322607 +++ exited with 0 +++
+2322602 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=2322607, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+2322608 <... set_robust_list resumed>)  = 0
+2322602 close(4)                        = 0
+2322602 read(3,  <unfinished ...>
+2322608 close(3)                        = 0
+2322608 getpid()                        = 2322608
+2322608 write(4, "\t\0", 2 <unfinished ...>
+2322602 <... read resumed>"\t\0", 2)    = 2
+2322608 <... write resumed>)            = 2
+2322602 close(3 <unfinished ...>
+2322608 close(4 <unfinished ...>
+2322602 <... close resumed>)            = 0
+2322608 <... close resumed>)            = 0
+2322602 write(1, "> Job 3 generated 9\n", 20) = 20
+2322602 write(1, "\n", 1)               = 1
+2322602 write(1, "Job 3, result: 73\n", 18) = 18
+2322608 exit_group(0 <unfinished ...>
+2322602 write(1, "Job 2, result: 154\n", 19 <unfinished ...>
+2322608 <... exit_group resumed>)       = ?
+2322602 <... write resumed>)            = 19
+2322602 write(1, "Job 1, result: 216\n", 19) = 19
+2322602 write(1, "Job 5, result: 64\n", 18) = 18
+2322602 write(1, "Job 4, result: 64\n", 18 <unfinished ...>
+2322608 +++ exited with 0 +++
+2322602 <... write resumed>)            = ? ERESTARTSYS (To be restarted if SA_RESTART is set)
+2322602 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=2322608, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+2322602 write(1, "Job 4, result: 64\n", 18) = 18
+2322602 write(1, "Job 6, result: 11\n", 18) = 18
+2322602 exit_group(0)                   = ?
+2322602 +++ exited with 0 +++
